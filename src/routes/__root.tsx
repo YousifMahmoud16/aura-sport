@@ -72,14 +72,18 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
+      { title: "Demo" },
+      { name: "description", content: "Aura Sport is a premium sportswear demo website showcasing high-end athletic apparel with a minimalist, luxurious design." },
       { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { property: "og:title", content: "Demo" },
+      { property: "og:description", content: "Aura Sport is a premium sportswear demo website showcasing high-end athletic apparel with a minimalist, luxurious design." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "Demo" },
+      { name: "twitter:description", content: "Aura Sport is a premium sportswear demo website showcasing high-end athletic apparel with a minimalist, luxurious design." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/39a14bce-6444-437a-8568-3c2c07b07e83/id-preview-02572e41--dfd5b165-14c3-4f98-a677-bae0a199057d.lovable.app-1778536450252.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/39a14bce-6444-437a-8568-3c2c07b07e83/id-preview-02572e41--dfd5b165-14c3-4f98-a677-bae0a199057d.lovable.app-1778536450252.png" },
     ],
     links: [
       {
